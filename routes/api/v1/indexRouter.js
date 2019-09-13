@@ -5,7 +5,7 @@ const router = express.Router();
 //@desc  Get all users
 //@access Public
 router.get('', (req, res) => {
-    res.redirect('../../../views/index.html');
+    res.redirect('index.html');
 })
 
 
