@@ -1,0 +1,33 @@
+{
+  "name": "childrenwelfare",
+  "version": "1.0.0",
+  "description": "Online payment app for children welfare donation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChandanKumar665/ChildrenWelfare.git"
+  },
+  "keywords": [
+    "payments",
+    "donation",
+    "cards"
+  ],
+  "author": "chandan kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChandanKumar665/ChildrenWelfare/issues"
+  },
+  "homepage": "https://github.com/ChandanKumar665/ChildrenWelfare#readme",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.0",
+    "nodemon": "^1.19.2",
+    "pug": "^2.0.4",
+    "request": "^2.88.0"
+  }
+}
